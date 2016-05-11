@@ -15,9 +15,9 @@
     </div>
     <div class="row">
         <div class="col-sm-12">
-            <p>Best French Caf&eacute; in the World</p>
+            <p id="tagline"> Best French Caf&eacute; in the World </p>
 
-            <h2>Menu:</h2>
+            <h2 id="taglinebis"> Menu:</h2>
 
         </div>
     </div>
@@ -80,22 +80,22 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12">
-            <form class="form-inline">
+        <div class="col-sm-12" id="sign-form-container">
+            <form class="form-inline" id="signup-form" method="post" action="/signup">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Tamara Elke">
+                    <input type="text" class="form-control" id="name" placeholder="Tamara Elke" name="visitorName">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="tamara@elke.com">
+                    <input type="email" class="form-control" id="email" placeholder="tamara@elke.com" name="visitorEmail">
                 </div>
-                <button type="submit" class="btn btn-default">Get Offers</button>
+                <button id="btn" type="submit" class="btn btn-default">Get Offers</button>
             </form>
-            <p>
+            <h4>
                 <a href="mailto:elke.kummer@gmx.at">Info
                 </a>
-            </p>
+            </h4>
         </div>
     </div>
 </div>

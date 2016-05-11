@@ -1,0 +1,39 @@
+body {
+    background-color: #d1e8ee;
+}
+
+
+h1 {
+    font-family: Futura; font-size: 60px; font-weight: bold;
+}
+
+h2 {
+    font-family: Futura; font-size: 60px; font-weight: bold;
+}
+
+h3 {
+    font-family: Futura; font-size: 40px; font-weight: normal;
+}
+
+h4 {
+    font-family: Futura; font-size: 20px; font-weight: normal; margin-top: 20px;
+}
+
+p {
+    font-family: Futura;
+}
+
+li {
+    font-family: Futura;
+}
+
+.form-group {
+    font-family: Futura; margin-right: 40px; margin-top: 20px;
+}
+
+#btn {
+    font-family: Futura; margin-right: 40px; margin-top: 20px;
+}
+#sign-form-container {
+    margin-bottom: 50px;
+}
