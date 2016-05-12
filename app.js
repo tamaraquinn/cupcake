@@ -12,7 +12,7 @@ app.get('/cupcake', function(request, response) {
 });
 
 app.get('/', function(request, response) {
-    response.sendFile(__dirname + "/index.html");
+    response.sendFile(__dirname + "/old.html");
 });
 
 app.post('/signup', function(request, response) {
