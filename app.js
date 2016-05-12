@@ -12,7 +12,7 @@ app.get('/cupcake', function(request, response) {
 });
 
 app.get('/', function(request, response) {
-    response.sendFile(__dirname + "/old.html");
+    response.sendFile(__dirname + "/index.html");
 });
 
 app.post('/signup', function(request, response) {
@@ -26,7 +26,6 @@ app.post('/signup', function(request, response) {
     
     database.writeStream.end();
     
-    response.send("blah" + tamara_name);
 });
 
 app.listen((process.env.PORT || 8000), function() {
