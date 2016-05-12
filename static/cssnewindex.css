@@ -2,7 +2,6 @@ body {
     background-color: #d1e8ee;
 }
 
-
 h1 {
     font-family: Futura; font-size: 60px; font-weight: bold;
 }
@@ -36,4 +35,8 @@ li {
 }
 #sign-form-container {
     margin-bottom: 50px;
+}
+
+#classes {
+    margin: 20px;
 }

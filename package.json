@@ -1,0 +1,27 @@
+{
+  "name": "Coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "ya-csv": "^0.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamaraquinn/cupcake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamaraquinn/cupcake/issues"
+  },
+  "homepage": "https://github.com/tamaraquinn/cupcake#readme"
+}

@@ -29,8 +29,8 @@ app.post('/signup', function(request, response) {
     response.send("blah" + tamara_name);
 });
 
-app.listen(8000, function() {
-    console.log("Welcome");
+app.listen((process.env.PORT || 8000), function() {
+    console.log('Welcome ' + (process.env.PORT || 8000));
 });
 
 
